@@ -1,14 +1,48 @@
 .container {
     padding: 40px 32px;
     display: grid;
+    justify-items: center;
     gap: 24px;
     grid-template-rows: repeat(4, auto);
     grid-template-areas:
     "header"
     "btns"
     "experience"
-    "info"
-    ;
+    "info";
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        grid-area: btns;
+
+        .btn-primary {
+            background: linear-gradient(90deg, #777CF4 2.62%, #F4777777 93.38%);
+            border-radius: 24px;
+            width: 100%;
+            padding: 12px;
+            text-align: center;
+            cursor: pointer;
+            
+    
+            color: var(--text-primary);
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 28px;
+            text-transform: uppercase;
+            border: none;
+    
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+    }
+
+    
 }
 
 @media (min-width: 768px) {
