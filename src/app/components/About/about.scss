@@ -1,11 +1,11 @@
-.experience {
+.about {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 24px;
-    max-width: 500px;
+    max-width: 750px;
     
-    grid-area: experience;
+    grid-area: about;
 
     p {
         font-weight: 300;
@@ -19,7 +19,7 @@
         align-items: flex-start;
         
         p {
-            font-size: 20px;
+            font-size: 18px;
             line-height: 28px;
             text-align: start;
         }

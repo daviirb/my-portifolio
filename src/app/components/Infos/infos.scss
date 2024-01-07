@@ -18,4 +18,9 @@
     span {
         color: var(--text-secondary);
     }
+
+    .educational-info {
+        display: flex;
+        flex-direction: column;
+    }
 }

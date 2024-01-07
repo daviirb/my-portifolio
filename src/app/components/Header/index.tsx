@@ -12,8 +12,8 @@ export function Header() {
             priority
         />
         <div>
-        <h1>Olá, eu sou Davi!</h1>
-        <h2>Frontend Developer</h2>
+        <h1>Olá, eu sou Davi! 👋</h1>
+        <h2>Desenvolvedor Front-end</h2>
         </div>
     </div>
     )

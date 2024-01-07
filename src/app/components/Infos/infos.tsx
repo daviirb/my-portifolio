@@ -4,15 +4,16 @@ import './infos.scss'
 export function Infos() {
 return (
     <div className="informations">
-        <SectionTitle text="Languages"/>
+        <SectionTitle text="Idiomas"/>
         <div className="languages-info">
-        <span>🇺🇸 EN - Fluent</span>
-        <span>🇧🇷 PT-BR - Native</span>
+        <span>🇺🇸 EN - Intermediário</span>
+        <span>🇧🇷 PT-BR - Nativo</span>
         </div>
-        <SectionTitle text="Education" />
+        <SectionTitle text="Educação" />
         <div className="educational-info">
-        <span></span>
-        <span>🎓 Computer Science Bachelors Degree - Estácio</span>
+        <span>🎓 Ciência da Computação - Estácio</span>
+        <span>📚 Desenvolvedor Full Stack Python - EBAC</span>
+        <span>📚 Bootcamp Desenvolvimento Frontend com Angular - DIO</span>
         </div>
     </div>
 )
