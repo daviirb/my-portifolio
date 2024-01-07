@@ -4,6 +4,7 @@ import { Infos } from './components/Infos/infos'
 import { SocialBtns } from './components/Social-btns/social-btns'
 import { Technologies } from './components/Technologies/technologies'
 import { EmailIcon } from './components/icons/email-icon'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import './styles/home.scss'
 
@@ -21,6 +22,7 @@ export default function Home() {
             <EmailIcon />
           </a>
         </div>
+      <SpeedInsights />  
     </main>
   )
 }
