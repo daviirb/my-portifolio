@@ -10,13 +10,13 @@ interface SocialBtnsProps {
 export function SocialBtns(props : SocialBtnsProps){
     return(
         <div className="social">
-            <a href="">
+            <a href="https://www.instagram.com/daviirb" target="_blank">
                 <InstagramIcon />
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/daviirb" target="_blank">
                 <LinkedinIcon />
             </a>
-            <a href="">
+            <a href="https://github.com/daviirb" target="_blank">
                 <GithubIcon />
             </a>
         </div>
